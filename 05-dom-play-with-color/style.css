@@ -1,0 +1,19 @@
+/** @format */
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+button {
+  padding: 8px;
+  background-color: orange;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
