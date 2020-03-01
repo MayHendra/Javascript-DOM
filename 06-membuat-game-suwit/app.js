@@ -1,6 +1,8 @@
 /** @format */
 
-while (true) {
+var tanya = true;
+
+while (tanya) {
   let input = prompt('Masukan Pilihan anda antara Gajah, Manusia dan Semut : ');
   input = input.toLowerCase();
 
@@ -40,4 +42,6 @@ while (true) {
   } else {
     alert('yang kamu masukan bukan pilihan');
   }
+
+  tanya = confirm('Ingin bermain lagi ??');
 }
