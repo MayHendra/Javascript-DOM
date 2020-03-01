@@ -7,7 +7,7 @@ while (true) {
   let comp = Math.ceil(Math.random() * 10);
   if (comp <= 3.33333333) {
     comp = 'gajah';
-  } else if (comp <= 6.66666666) {
+  } else if (comp >= 3.33333333 && comp <= 6.66666666) {
     comp = 'manusia';
   } else {
     comp = 'semut';
